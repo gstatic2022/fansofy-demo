@@ -1,0 +1,3499 @@
+/*
+ Table Of Contents
+ 1.) Media Query for Handheld Devices
+ 2.) Media Query for Tablet
+ 3.) Media Query for mobile
+ ===============================================*/
+/*
+ 1.) Media Query for Handheld Devices
+ ===============================*/
+@media only screen and (min-width: 992px) {
+/*creators-wishlist page css start*/
+
+
+.follow a{
+	font-size: 4rem;
+	margin-left:140px;
+	font-weight: 600;
+}
+.wishlist-card .card-block {
+    width: 48%;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+.wishlist-card { 
+    padding: 0 20px;
+}
+
+/*creators-wishlist page css ends*/
+/*fee page css start*/
+.duration-pd {
+    padding: 0 185px;
+}
+.fee-block {
+    padding: 50px; 
+}
+
+/*fee page css ends*/
+
+/*home page css start*/
+.fnsofy-cover img {
+    width: 100%;
+}
+.add-comment-section {
+    padding-bottom: 20px;
+}
+.home-block-s {
+    width: 100%;
+}
+.home-block {
+    width: 30%;
+}
+/*home page css ends*/
+
+.trending-block {
+    width: 30%;
+}
+/* add-post page start */
+.post-back-arrow img { 
+    width: 30px; 
+}
+.add-story { 
+    font-size: 2.3rem; 
+}
+.add-post .add-title h3 { 
+    font-size: 2.5rem; 
+}
+.add-post .add-title p {
+    font-size: 1.7rem; 
+}
+.compose-new { 
+    font-size: 1.74rem;
+    height: 165px;
+}
+.add-post .add-photos {
+    font-size: 2rem;
+    font-weight: 700;
+}
+.schedule-post { 
+    font-size: 2rem; 
+}
+.schedule .schedule-post img {
+    width: 45px;
+    margin-right: 22px;
+}
+.live-post { 
+    font-size: 2rem; 
+}
+.live-post img {
+    width: 80px;
+    margin-left: 15px;
+}
+.post-btn { 
+    font-size: 1.7rem;
+}
+
+}
+
+/* add-post page start */
+
+
+@media only screen and (min-width: 1200px) {
+	
+	
+	.follow a{
+	font-size: 4rem;
+	margin-left:180px;
+	font-weight: 600;
+}
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1120px;
+    }
+
+.payout-verification .form-County-select {
+    font-size: 1.84rem;
+}
+.payout-verification .personal-details span {
+    font-size: 1.8rem; 
+}
+.commission-earned  .responsive-iframe {
+    width: 70%;
+    height: 370px;
+}
+.notification-ico .dropdown-menu .notif-cate { 
+    font-size: 3.1rem; 
+}
+ 
+ 
+.notification-ico .dropdown-menu .notif-cate img { 
+    width: 35px;
+}
+   .footer .material-white-icon {
+    top: -45px;
+    padding: 20px;
+    display: flex;
+    height: 70px;
+    width: 70px;
+    align-items: center;
+}
+.half-circle-chat {
+    top: 0;
+    left: 28%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 35px;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+}
+.half-circle-chat:after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    border-radius: 50%;
+    background: #fff;
+}
+.profile-details { 
+    border-radius: 56px 56px 0 0;
+}
+.library-ico .dropdown-menu { 
+    left: auto !important;
+    right: 0 !important;
+    margin-top: 17px !important;
+}
+.img-card img {
+    width: 33%;
+    border-radius: 30px; 
+    padding: 5px 5px ;
+}
+    .more-icon {
+    padding: 30px 0 58px;
+}
+    .profile-details .profile-padd {
+    padding: 10px 20px 20px;
+}
+    .profile-name {
+        font-size: 4rem;}
+    .profile-name img {
+        width: 40px; 
+    }
+    .followcount {
+        font-size: 3rem; 
+    }
+    .followcount .user-count span { 
+        vertical-align: top;
+    }
+    .followcount .wishlist-count span{
+        vertical-align: top;
+    }
+    .followcount img {
+        width: 40px;
+        vertical-align: top;
+    }
+    .star-ratting img {
+        width: 34px; 
+    }
+    .share-icon img { 
+        width: 45px;
+    }
+    .online-status { 
+        font-size: 2.5rem;
+        }
+    .online-status {  
+        padding: 0 25px 0;
+    }
+    .online-status span { 
+        height: 14px;
+        width: 14px; 
+        left: 0;
+    }
+    .user-disc p {
+        font-size: 2.8rem;
+    }
+    .dot span { 
+        height: 14px; 
+        width: 14px;
+    }
+    .user-disc a {
+        font-size: 2.8rem;}
+    .user-disc p { 
+        padding: 0 0 15px;
+    }
+    .follow-btn .followers-btn { 
+        font-size: 2.8rem;
+        padding: 20px 100px;
+    }
+    .more-icon img {
+        height: 65px; 
+        margin: 0 30px;
+    }
+    .follow-btn {
+        margin: 120px 0px 120px;
+    }
+    .footer .left-icon {
+        width: 320px;
+    }
+    .footer .right-icon {
+        width: 320px;
+    }
+    .footer .left-icon img, .right-icon img {
+        width: 45px;
+    }
+    .footer .search-icon { 
+        top: -65px;
+        padding: 20px;
+        height: 100px;
+        width: 100px; 
+    }
+    .footer .search-icon img {
+        width: 55px;
+    }
+    .half-circle { 
+        width: 130px;
+        height: 50px; 
+    }
+    .half-circle:after {
+        content: ''; 
+        width: 130px;
+        height: 130px; 
+    }
+    .banner-section {
+        margin-bottom: 60px;    
+    }
+    .banner-section .banner-img .b-img {
+        max-height: 380px;
+    }
+    .banner-section .banner-img {
+        border-radius:  0 0 56px 56px;
+    }
+    .banner-section .profile-img {
+        width: 217px;
+        height: 217px;
+    }
+    .account-settings .settings-wrp {
+        border-radius: 56px;
+        padding: 52px 35px;
+    }
+    .account-settings .acc-title {
+        font-size: 4rem;
+        margin-bottom: 20px;
+    }
+    .acc-set-list a {
+        font-size: 3rem;
+    }
+    .acc-set-list a {
+        padding-left: 70px;
+    }
+    .acc-set-list .list-icn {
+        left: 15px;
+        top: 3px;
+        width: 30px;
+    }
+    .acc-set-list li {
+        padding: 20px 0;
+    }
+    .acc-set-list .list-icn.lock {
+        width: 35px;
+    }
+    .acc-set-list .list-icn.dollor {
+        width: 16px;
+        top: 11px;
+    }
+    .acc-set-list .list-icn.subs {
+        width: 38px;
+    }
+    .acc-set-list .list-icn.bell-icn {
+        top: 9px;
+        width: 28px;
+    }
+    .acc-set-list.pb-3 {
+        padding-bottom: 40px !important;
+    }
+    .acc-set-list .list-icn.lang {
+        width: 36px;
+        top: 9px;
+    }
+    .acc-set-list .list-icn.block-i {
+        width: 36px;
+        top: 5px;
+    }
+    .acc-set-list a::after {
+        right: 38px;
+        width: 15px;
+        height: 20px;
+    }
+    .switcher label {
+        width: 70px;
+        height: 30px;
+    }
+    .switcher label::after {
+        width: 26px;
+        height: 22px;
+        left: 9px;
+    }
+    .switcher input:checked + label::after {
+        left: 39px;
+    }
+    .acc-set-list .list-icn.users {
+        width: 35px;
+        top: 8px;
+    }
+    .banner-section .setting-icn {
+        top: 44px;
+        right: 60px;
+    }
+    .banner-section .back-icn {
+        left: 30px;
+    }
+    .calendar-size img {
+        width: 65px
+    }
+/*Referral page css start*/
+
+    .refer h4 {
+        font-size: 2.2rem; 
+    }
+    .referral-back {
+    font-size: 3.7rem; 
+    }
+    .refer-link h4 {
+        font-size: 2.2rem; 
+    }
+    .level-referrals h4 { 
+        font-size: 2.25rem; 
+    }
+    .commission-earned h4 { 
+        font-size: 2.27rem; 
+    }
+    .commission-earned .rf-pb h4 {
+        padding-bottom: 20px;
+    }
+    .back-arrow img { 
+        width: 35px; 
+        top: 7px; 
+    }
+    .referral-search {
+        width: 35px;
+        margin-right: 28px;
+        margin-top: 35px;
+    }
+    .commission-earned h5 {
+        font-size: 2.3rem;
+        color: #F633A2;
+    }
+/*Referral page css ends*/
+
+/*request verification page css start */
+    .next-btn {
+        font-size: 1.9rem;
+    }
+    .user-verification {
+        font-size: 3.7rem; 
+    }
+    .step-by li {
+        font-size: 2.3rem; 
+    }
+    .personal-info h4 { 
+        font-size: 2.7rem;
+    }
+    .personal-details label {
+        font-size: 1.84rem;
+    }
+    .personal-details .form-control { 
+        font-size: 1.84rem;
+    }
+    .personal-details .dob { 
+        font-size: 1.84rem;
+    }
+    .social-media-info h4 {
+        color: #E464A0;
+        font-size: 2.7rem;
+    }
+    .social-media-info h5 { 
+        font-size: 2rem; 
+    }
+    .social-media-info label {
+        font-size: 1.84rem; 
+    }
+    .social-media-info .form-control { 
+        font-size: 1.84rem;
+    }
+/*request verification page css ends */
+/*verification-identity page css start*/
+
+    .proof-identity h4 { 
+        font-size: 2.7rem; 
+    }
+    .proof-identity p { 
+        font-size: 1.8rem;
+    }
+    .choose-identity h6 { 
+        font-size: 2.2rem;
+    }
+    .choose-identity .identity-check label {
+        font-size: 2.2rem;
+        padding-left: 15px;
+    }
+    .upload-proof .document-identity h3 { 
+        font-size: 2.3rem;
+    }
+
+    .choose-identity .identity-check label:after {
+        width: 20px;
+        height: 20px;
+    }
+    .upload-proof .document-identity p { 
+        font-size: 1.8rem; 
+    }
+    .upload-proof .document-identity p span { 
+        font-size: 1.8rem; 
+    }
+    .upload-proof img {
+        width: 150px;
+        height: 120px;
+    }
+    .selfie-identity h6 { 
+        font-size: 2.2rem; 
+    }
+    .selfie-identity .massage-line {
+        font-size: 1.8rem;
+    }
+
+    .verification-terms li {
+        font-size: 1.8rem;
+    }
+/*verification-identity page css ends*/
+
+
+
+/* payout verification page css start*/
+.payout-verification h4 { 
+    font-size: 2.7rem; 
+}
+.payout-verification .personal-details label {
+    font-size: 1.94rem; 
+}
+.and-or { 
+    font-size: 2.5rem; 
+}
+.payout-verification .personal-details .currency-fn {
+    font-size: 2.7rem; 
+}
+.payout-verification .form-select { 
+    font-size: 1.94rem; 
+}
+.payout-verification .select-chevron:after { 
+    height: 26px; 
+
+
+}
+/* payout verification page css ends*/
+
+
+/* login page css start*/
+
+.login h2 { 
+    font-size: 5.3rem; 
+}
+.login p { 
+    font-size: 2.3rem; 
+}
+.login-details .form-control { 
+    font-size: 1.84rem;
+}
+.forgot-password { 
+    font-size: 1.9rem;
+}
+.login-btn { 
+    font-size: 1.9rem;
+}
+
+.signup-link p {
+    font-size: 1.9rem; 
+}
+.signup-link a { 
+    font-size: 1.9rem;
+}
+.login .lock-chevron:after { 
+    height: 25px;
+}
+.login .email-chevron:after { 
+    height: 25px;
+}
+.login .eye-show { 
+    right: 25px;
+    height: 25px;
+}
+
+/* login page css ends*/
+
+/* sign-up page css start*/
+.sign-up h2 { 
+    font-size: 5.3rem; 
+}
+.avatar-right span {
+    font-size: 2.3rem; 
+}
+.sign-up p { 
+    font-size: 2.3rem; 
+}
+
+.sign-up-details .form-control { 
+    font-size: 1.84rem;
+}
+.sign-up .user-icon:after { 
+    height: 25px;
+}
+.sign-up .email-chevron:after { 
+    height: 25px;
+}
+
+.sign-up .lock-chevron:after { 
+    height: 25px;
+}
+.sign-up .eye-show { 
+    height: 25px;
+}
+.sign-up-btn { 
+    font-size: 1.9rem; 
+}
+.terms-link p {
+    font-size: 1.9rem;
+}
+.terms-link a {
+    font-size: 1.9rem;
+}
+/* sign-up page css ends*/
+
+
+/* add-post page start */
+.post-back-arrow img { 
+    width: 35px; 
+}
+.add-story { 
+    font-size: 2.5rem; 
+}
+.add-post .add-title h3 { 
+    font-size: 2.7rem; 
+}
+.add-post .add-title p {
+    font-size: 1.9rem; 
+}
+.compose-new {
+    font-size: 1.94rem;
+    height: 175px;
+}
+.add-post .add-photos {
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+.schedule-post { 
+    font-size: 2.3rem; 
+}
+.schedule .schedule-post img {
+    width: 45px;
+    margin-right: 22px;
+}
+.live-post { 
+    font-size: 2.3rem; 
+}
+.live-post img {
+    width: 80px;
+    margin-left: 15px;
+}
+.post-btn { 
+    font-size: 1.9rem;
+}
+.post-back-arrow img {
+    width: 35px;
+    top: -4px;
+}
+.add-document {
+    padding: 15px 0 35px;
+}
+
+/*popup*/
+.add-post-inner-popup {
+    max-width: 500px; 
+}
+.add-post-inner-popup h2 {
+    font-size: 25px;
+}
+.add-post-popup-block .upload-details .validations {
+    font-size: 1.6rem;
+}   
+.add-post-popup-block .upload-details .form-group {
+    margin-bottom: 25px;
+}
+.add-post-popup-block .upload-details label {
+    font-size: 20px;
+    padding: 0 0 10px;
+}
+.add-post-popup-block .upload-details .form-control {
+    display: block;
+    width: 100%;
+    font-size: 1.84rem;
+}
+.golive-btn {
+    font-size: 1.9rem;
+}
+
+
+.follower-details label { 
+    font-size: 22px;
+}
+
+
+/* add-post page ends */
+/*messages page css start*/
+      
+.messages-back {
+    font-size: 3.7rem;
+}
+.messages-sec .back-arrow img {
+    width: 35px;
+    top: 7px; 
+}
+.messages-sec .messages-search {
+    width: 35px;
+    margin-right: 28px;
+    margin-top: 35px;
+}
+.new-message { 
+    font-size: 1.9rem; 
+}
+.message-block .message-contant h4 {
+    font-size: 2.1rem;
+    }
+.message-block .message-contant p {
+    font-size: 1.8rem; 
+}
+.message-block .messages-count span {
+    font-size: 1.6rem;
+    padding: 5px 9px;
+}       
+
+.message-block {
+    padding: 20px 22px 20px 30px;
+    margin-bottom: 30px;
+
+}
+.other-message {
+    font-size: 1.9rem;
+}
+.message-block .oth-message h4 {
+    font-size: 2.1rem; 
+}
+.message-block .oth-message p {
+    font-size: 1.8rem; 
+}
+.oth-message figure {
+    width: 60px;
+}
+.message-contant figure {
+    width: 60px;
+}
+/*messages page css ends*/
+
+/*trending page css start*/
+.trending-contant .trade-txt h4 {
+    font-size: 1.9rem; 
+    padding: 0px 5px 3px 0;
+}
+.trending-contant .trade-txt img {
+    width: 17px;
+}
+.trending-txt { 
+    font-size: 2.5rem;
+}
+.trending-contant figure img {
+    width: 100%;
+    border-radius: 19px;
+    overflow: hidden;
+}
+.see-more-link {
+    font-size: 2rem;
+    padding: 10px 0;
+}
+.half-circle-bell {
+    top: -15px;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 56px;
+    position: absolute;
+    z-index: 1; 
+    right: 16%;
+    overflow: hidden;
+}
+.footer .awesome-bell-icon { 
+    right: 20%;
+    top: -40px;
+    }
+.half-circle-bell:after {
+    content: '';
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    bottom: 0;
+    border-radius: 50%;
+    background: #fff;
+}
+/*trending page css ends*/
+
+
+
+/*home page css start */
+.footer .home-white-icon {
+    top: -45px;
+    padding: 20px;
+    height: 70px;
+    width: 70px;
+}
+.half-circle-home {
+    top: 0px; 
+    width: 100px;
+    height: 35px; 
+}
+.half-circle-home:after { 
+    height: 100px; 
+    width: 100px;
+}
+.view-story { 
+    font-size: 3.1rem; 
+}
+.home-block .fn-disc {
+    font-size: 1.9rem; 
+}
+.disc-img h4 {
+    font-size: 2.3rem; 
+}
+ 
+.add-comment-section .add-comment-h a {
+    font-size: 2rem; 
+}
+.comment-section .user-comment-h img {
+    width: 28px;
+}
+.user-send img {
+    width: 30px;
+    transform: rotate(
+45deg);
+}
+/*home page css ends */
+
+/*chat page css start */
+.chat-m-heading h4 {
+    font-size: 2.3rem; 
+    margin: 0 0 0 15px;
+}
+.chat-back-arrow img {
+    width: 25px;
+    margin-right: 15px;
+}
+.chat-m-profile img {
+    width: 42px;
+}
+.video-call {
+    width: 27px;
+    margin-left: 30px;
+}
+.voice-call {
+    width: 23px;
+}
+.chat-view-inner-popup {
+    max-width: 500px;
+    padding: 129px 28px 100px;
+}
+.chat-messages .type-img-left figure {
+    width: 42px;
+    height: 42px; 
+}
+.chat-messages .messages-right p {
+    font-size: 1.9rem; 
+}
+.chat-messages .messages-right .vid-call {
+    font-size: 1.9rem; 
+}
+.chat-messages .video-call-view-btn .request-view-btn {
+    font-size: 1.7rem;
+    border-radius: 10px;
+    padding: 5px 30px;
+    background: #fff;
+    border: 1px solid #707070;
+    color: #2C2C2C;
+}
+.video-call-request-block {
+    padding: 5px 0px 5px 12px;
+    border-radius: 27px;
+    background: #E464A0;
+    color: #fff;
+    width: 100%;
+    max-width: 320px;    
+    align-items: center;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.video-call-request-block p {
+    padding: 0 30px 0 0;
+    font-size: 2.1rem;
+    width: 44%;
+}
+.video-call-request-block .coins-value h2 {
+    font-size: 2.3rem;
+}
+.video-call-request-block .dollor-value h2 {
+    font-size: 2.3rem;
+}
+.video-call-request-block .dollor-value span {
+    width: 12px;
+}
+.user-video-call-request {
+    font-size: 1.9rem;
+}
+.user-video-call-request .vid-call {
+    font-size: 1.9rem;
+}
+
+.chat-details .form-control {
+    display: block;
+    width: 100%;
+    font-size: 1.94rem;}
+
+.chat-messages {
+    padding: 40px 10px;
+}
+.chat-messages .type-img-right figure {
+    width: 42px;
+    height: 42px; 
+}
+.chat-details .chating-icon .dollar-icon {
+    width: 14px;
+    left: 24px;
+}
+
+
+.set-pr p {
+    padding: 0 30px 0 0;
+    font-size: 2.1rem;
+}
+.send-block .coins-value h2{
+    font-size: 2.3rem; 
+
+}
+.send-block .dollor-value h2{
+    font-size: 2.3rem; 
+}
+.send-tip-btn {
+    background: #E464A0;
+    font-size: 1.9rem;
+    }
+/*chat page css ends */
+
+/*transactions page css start*/
+ 
+.transactions-block h3 {
+    font-size: 3.1rem; 
+}
+
+.transactions-block h4 {
+    font-size: 2.7rem; 
+}
+.transactions-block h4 img {
+    width: 19px;
+    right: 70px;
+}
+.transactions-block .time-zone p {
+    font-size: 1.9rem; 
+}
+
+.transaction-history h3 {
+    font-size: 3.3rem; 
+}
+ 
+.transaction-table td, .transaction-table th {
+    padding: 13px 85px;
+}
+.transaction-table table, .transaction-table td, .transaction-table th, .transaction-table tr {
+  border: 1px solid #707070;
+  font-size: 18px;
+}
+
+/*transactions page css ends*/
+/*create password page css start*/
+.create-password { 
+    border-radius: 56px;
+    margin: 25px 0; 
+}
+ 
+ 
+.reset-f-password h2 {
+    color: #2C2C2C;
+    font-weight: 700;
+    font-size: 3.3rem;
+}
+.reset-f-password p { 
+    font-size: 2.3rem; 
+
+}
+.reset-password-details .form-control { 
+    font-size: 1.84rem; 
+} 
+.reset-password-details .validation {
+    font-size: 1.8rem; 
+} 
+
+.reset-password-pb {
+    padding-bottom: 30px;
+}
+
+.reset-password-details .reset-password-pb .lock-chevron {
+    position: relative;
+}
+.reset-password-details .reset-password-pb .lock-chevron:after { 
+    height: 25px; 
+}
+/*create password page css ends*/
+/*reset password page css start*/
+.verify-btn {
+    font-size: 1.9rem;
+}
+.p-login-btn {
+    font-size: 1.9rem;
+    margin-bottom: 50px;
+}
+/*reset password page css ends*/
+
+/*fee page css start*/
+.fee-block .fee-menu a {
+    font-size: 2.3rem; 
+}
+.fee-block .limit-block label {
+    font-size: 1.9rem; 
+}
+.limit-block .identity-check label {
+    font-size: 2.1rem;
+    margin-left: 30px;
+}
+ 
+.fee-block .limit-block .form-select { 
+    font-size: 1.94rem;
+}
+.limit-block .identity-check label:after { 
+    width: 23px;
+    height: 25px;}
+    .limit-block .disc-validation {
+    font-size: 1.8rem;
+    color: #2C2C2C;
+}
+
+.pkg-form-inline .form-control { 
+    font-size: 1.94rem;
+}
+.packages-sec .packages-block label {
+    font-size: 1.94rem; 
+}
+.packages-sec .packages-block h2 {
+    font-size: 2.3rem; 
+}
+
+.packages-block .set-btn {
+    font-size: 1.94rem;  
+}
+/*fee page css ends*/
+
+/*manage revenue page css start*/
+
+.manage-set-list a { 
+    font-size: 3rem; 
+    font-weight: 700; 
+}
+.manage-revenue .revenue-wrp {  
+    padding: 52px 35px;
+}
+.manage-set-list li {
+    padding: 20px 0;
+}
+.manage-set-list{
+    padding-left: 70px;
+}
+.manage-set-list a::after {
+    right: 38px;
+    width: 15px;
+    height: 20px;
+}
+/*manage revenue page css ends*/
+
+/*creators-wishlist page css start*/ 
+.wishlist-card .card-block h3 {
+    font-size: 2.4rem;
+}
+.wishlist-card .card-block p {
+    font-size: 1.6rem;
+    padding: 0 0 15px;
+}
+.wishlist-card .card-block h5 {
+    font-size: 2.1rem;
+    margin: 0 0 5px;
+}
+.wishlist-add button {
+    background: #E464A0 0% 0% no-repeat padding-box;
+    border-radius: 45px;
+    color: #FFFFFF;
+    font-size: 49px;
+    font-weight: 700;
+    border: none;
+    padding: 15px 35px;
+}
+.footer .awesome-profile-icon {
+    background: #E464A0;
+    padding: 10px;
+    position: relative;
+    border-radius: 50%;
+    top: -45px;
+    z-index: 2;
+    right: -29%;
+    transform: translateX(0);
+}
+.half-circle-profile {
+    top: -15px;
+    transform: translateX(0);
+    width: 122px;
+    height: 60px;
+    position: relative;
+    z-index: 1;
+    right: 8%;
+    overflow: hidden;
+}
+.half-circle-profile:after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.wishlist-add-icon a {
+    width: 70px;
+    position: fixed;
+    top: 70%;
+    right: 8%;
+    z-index: 9;
+}
+/*creators-wishlist page css ends*/
+.inner-popup .login-btn { 
+    width: 208px; 
+}
+.inner-popup {
+    max-width: 592px; 
+    padding: 100px 56px;
+}
+.inner-popup h2 { 
+    font-size: 35px; 
+}
+.wishlist-inner-popup {
+    max-width: 500px;
+    width: 100%;
+    position: relative;
+    background: #fff;
+    border-radius: 30px;
+    padding: 28px;
+}
+.wishlist-popup-block .upload-details label {
+    font-size: 20px;
+    padding: 0 0 10px;
+}
+.wishlist-popup-block .upload-details .form-control {
+    display: block;
+    width: 100%;
+    font-size: 1.84rem;
+}
+.wishlist-popup-block .upload-details .form-group {
+    margin-bottom: 25px;
+}
+
+.wishlist-inner-popup h2 {
+    font-size: 25px; 
+}
+.cross-btn {
+    width: 35px; 
+}
+
+/*Wallet page css start*/
+.all-coins {
+    font-size: 2.7rem; 
+    padding-bottom: 30px
+}
+.available-coins .coins-value h2 {
+    font-size: 2.7rem; 
+}
+.available-coins .dollor-value h2 {
+    font-size: 2.7rem; 
+}
+.available-coins .coins-value span {
+    width: 25px; 
+}
+.available-coins .dollor-value span {
+    width: 15px;
+}
+.add-coins .add-coins-btn {
+    font-size: 1.9rem;
+}
+
+.pay-card-block {
+    padding: 80px 250px
+}
+.pay-card-pd {
+    padding: 0 70px;
+}
+.pay-card-block .pay-card .form-select { 
+    font-size: 1.94rem; 
+}
+.add-new-card .add-card-txt a {
+    font-size: 2.1rem; 
+}
+.pay-card-block h2 {
+    font-size: 2.7rem;
+    color: #E464A0;
+}
+.pay-card-section .pay-card-number h3 {
+    font-size: 2.7rem; 
+}
+.pay-card-section .pay-card-name h3 {
+    font-size: 2.3rem; 
+}
+
+.pay-card-section .pay-card-valid h3 {
+    font-size: 2.3rem; 
+}
+.add-new-card .pay-card-section {
+    padding: 60px 25px; 
+}
+.pay-card-details h5 {
+    font-size: 2.1rem;  
+}
+.customer-card .customer-card-valid h5 {
+    font-size: 2.1rem; 
+}
+.remember-card .remember-card-details label {
+    font-size: 2.3rem; 
+    margin-left: 45px
+;
+}
+.remember-card .remember-card-details label:before, .remember-card .remember-card-details label:after {
+    position: absolute;
+    content: "";
+    width: 27px;
+    height: 23px; 
+}
+.remember-card .remember-card-details p {
+    font-size: 1.7rem;
+    margin-left: 45px; 
+}
+.pay-card-block .pay-button-block {
+    margin: 35px 0;
+}
+.pay-card-block .terms-link p {
+    font-size: 1.9rem; 
+}
+.pay-card-block .company-link {
+    font-size: 2.3rem; 
+}
+
+.currency-mb {
+    padding-bottom: 30px; 
+}
+.pay-card-block .qr-code-details p {
+    font-size: 1.9rem; 
+}
+.pay-card-block .qr-code-details h3 {
+    font-size: 2.7rem; 
+}
+.qr-code-details .qr-code figure {
+    padding: 0 100px; 
+}
+.copy-link-details .copy-link span { 
+    font-size: 1.9rem;
+
+}
+
+/*Wallet page css ends*/
+/*dashboard page css start*/
+.t-earning {
+    font-size: 2.1rem; 
+    padding: 0 0 15px 53px;
+}
+.available-coins .view-more-earn a {
+    font-size: 2.3rem; 
+    
+}
+
+/*live-video-ended page css start*/
+.all-coins-ended {
+    font-size: 2.7rem;
+    margin: 0; 
+}
+.available-all-coins .live-dollor-value h2 {
+    font-size: 2.7rem;
+    margin: 0 15px 0 0; 
+}
+.available-all-coins .live-coins-value h2 {
+    font-size: 2.7rem;
+    margin: 0 10px 0 0;
+    padding: 0 8px 0 0;
+    border-right: 3px
+    solid #F633A2;
+    font-weight: 400;
+}
+.available-all-coins {
+    width: 40%;
+}
+.available-all-coins .live-dollor-value span {
+    width: 12px;
+}
+.available-all-coins .live-coins-value span {
+    width: 25px;
+}
+.live-video-ended  {
+    font-size: 4.7rem; 
+    padding-bottom: 30px
+} 
+/*live-video-ended page css ends*/
+
+/*blocked-account page css start*/
+.blocked-account-block { 
+    padding: 98px 18px;
+}
+.blocked-user-search {
+    padding: 0 225px;
+}
+.blocked-account-details {
+    padding: 0 225px;
+}
+.blocked-account-block h2 {
+    color: #E464A0;
+    font-size: 3.3rem; 
+    padding: 20px 106px;
+}
+.blocked-account-details .form-control { 
+    font-size: 1.84rem;
+}
+.blocked-account-details .unblock-user {
+    top: 50%;
+    font-size: 1.7rem;
+}
+.blocked-account-block .user-search-icon  { 
+     right: 250px; 
+}
+.blocked-account-block .form-control { 
+    font-size: 1.84rem;
+}
+
+/*blocked-account page css ends*/
+
+/*languages page css start*/
+.choose-languages {
+    padding: 15px 225px;
+}
+.languages-detail .choose-languages label {
+    font-size: 2.1rem;
+    margin-left: 35px;
+}
+.languages-detail .choose-languages .languages-block {
+    margin: 20px 0; 
+    padding: 21px 25px;  
+}
+.languages-detail .choose-languages label:after {
+    width: 25px;
+    height: 25px;
+}
+/*languages page css ends*/
+
+/*PAyout page css start*/
+.available-coins .fancoin-earned { 
+    padding: 8px 80px; 
+}
+
+.amt-top {
+    margin: 90px 0 0 0;
+    font-size: 2.7rem;
+}
+/*fee-setup page css start*/
+.fee-setup-block {
+    padding: 71px 215px 55px;
+}
+.fee-setup-block h3 {
+    font-size: 3.1rem; 
+    padding: 0 0 30px;
+}
+.fee-setup-block .setup-sub h4 {
+    font-size: 2.3rem; 
+}
+.setup-sub .form-control {
+    display: block;
+    width: 40%;
+    font-size: 1.84rem; 
+    padding: 17px; 
+}
+.fee-setup-block .save-btn {
+    background: #E464A0;
+    font-size: 1.9rem;
+}
+.setup-sub .free-txt, .setup-sub .paid-txt {
+    font-size: 2.3rem;
+    font-weight: 700;  
+}
+.fee-setup-block p {
+    font-size: 1.9rem;
+}
+.fee-setup-block .setup-sub .plus, .fee-setup-block .setup-sub .minus {
+    font-size: 4.8rem;
+}
+.setup-coins .dollor-value h2 {
+    font-size: 2.3rem;
+}
+.setup-coins .fancoin-earned {
+    background: #fff;
+    padding: 8px 20px;
+    }
+.setup-coins .coins-value h2 {
+    font-size: 2.8rem;
+}
+.setup-coins .dollor-value h2 {
+    font-size: 2.8rem;
+}
+
+.setup-coins .coins-value h2 {
+    font-size: 2.3rem;
+}
+
+.fee-setup-block .setup-sub {
+    padding: 25px 0 67px;
+}
+/*fee-setup page css ends*/
+
+/*subscribers  page css start*/
+.message-contant .sub-txt {
+    width: calc(100% - 100px);
+}
+.notification-ico .messages-search {
+    width: 35px;
+}
+.message-block .sub-mr {
+    margin-bottom: 50px;
+}
+/*subscribers  page css ends*/
+
+/*error-popup page css start*/
+.error-popup-block figure {
+    width: 65px;
+    margin: 55px 0;
+}
+.error-inner-popup {
+    max-width: 400px; 
+}
+.error-popup-block h3 {
+    font-size: 2.3rem; 
+    margin-bottom: 55px;
+}
+/*error-popup page css ends*/
+/*success-popup page css start*/
+.success-popup-block figure {
+    width: 65px;
+    margin: 55px 0;
+}
+.success-inner-popup {
+    max-width: 400px; 
+}
+.success-popup-block h3 {
+    font-size: 2.3rem; 
+    margin-bottom: 55px;
+}
+/*success-popup page css ends*/
+
+
+/*live-user page css start*/
+.live-user-block .live-user-head h2 {
+    font-size: 2.6rem; 
+}
+.live-user-block .live-chat-user figure {
+    width: 50px;    
+    margin-right: 15px;
+}
+.live-chat-user .sub-txt h4 {
+    font-size: 2.1rem;
+}
+.live-chat-user .sub-txt p {
+    font-size: 1.9rem; }
+.live-user-block {
+    width: 50%;
+    margin-top: 20px;
+}
+.live-user-comment .live-coins-tip img {
+    width: 40px;
+}
+.live-user-comment form {
+    width: calc(100% - 90px); 
+}
+.live-user-comment .live-coins-tip p {
+    font-size: 1.9rem;
+}
+.live-user-comment .live-user-txt { 
+    font-size: 1.94rem;
+}
+.live-user .live-user-pov {
+    width: 48%;
+    position: relative;
+}
+.live-user .live-user-pov .user-image img { 
+    width: 100%;
+}
+.live-user .live-user-pov .live-icon-top figure { 
+    width: 85px; 
+}
+.send-tip-inner-popup h2 {
+    font-size: 25px; 
+}
+.send-tip-inner-popup h3 {
+    font-size: 30px;
+}
+.send-tip-popup-block .setup-sub .form-control { 
+    font-size: 1.84rem;
+}
+
+.send-tip-inner-popup .send-tip-btn { 
+    font-size: 1.9rem;
+    margin-bottom: 20px;   
+    width: auto;
+}
+
+.wishlist-popup-block .pay-btn {
+    background: #E464A0;
+    font-size: 1.9rem;
+}
+
+.wishlist-popup-block .pay-btn { 
+    width: auto;
+    padding: 14px 70px;
+}
+ 
+/*live-user page css ends*/
+.edit-account-profile .personal-details {
+    padding: 25px 110px 60px;
+}
+
+/*edit-profile page css start*/
+.edit-banner-section {
+    margin-bottom: 100px;
+}
+.edit-banner-section .profile-bg-cross {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    bottom: -25px;
+    right: 15px;
+}
+.edit-banner-section .profile-img .profile-bg-cross-img {
+    position: absolute;
+    width: 35px;
+    height: 35px; 
+}
+.edit-banner-section .profile-img {
+    position: absolute;
+    left: 130px;
+    bottom: -140px; 
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+}
+
+.personal-details .form-control2 {
+    font-size: 1.84rem;
+}
+/*edit-profile page css ends*/
+
+
+}
+
+@media only screen and (min-width: 1599px) {
+/*edit-profile page css start*/
+
+.edit-banner-section {
+    margin-bottom: 200px;
+}
+.personal-details .form-control2 {
+    font-size: 27px; 
+}
+.edit-banner-section .profile-img {
+    position: absolute;
+    left: 165px;
+    bottom: -210px;
+    width: 217px;
+    height: 217px;
+}
+.edit-banner-section .profile-img .profile-bg-cross-img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: 22px;
+}
+.edit-banner-section .profile-bg-cross {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: -25px;
+    right: 20px;
+}
+/*edit-profile page css ends*/
+
+
+.wishlist-popup-block .upload-details .form-control1 {
+    display: block; 
+    font-size: 28px;
+    font-weight: 700;
+    width: 32%;
+}
+.wishlist-popup-block .upload-details .plus, .wishlist-popup-block .upload-details .minus {
+    font-size: 6.8rem;
+}
+.wishlist-popup-block .pay-btn {
+    width: auto;
+    padding: 18px 94px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+.wishlist-popup-block .upload-details h3 {
+    font-size: 48px;
+}
+/*live-user page css start*/
+.send-tip-inner-popup h2 {
+    font-size: 38px; 
+}
+.send-tip-inner-popup h3 {
+    font-size: 48px;
+    margin-bottom: 18px;
+}
+.send-tip-popup-block .setup-sub .form-control {
+    font-size: 38px;
+    width: 201px;
+    padding: 7px;
+}
+.send-tip-popup-block .setup-sub .plus, .send-tip-popup-block .setup-sub .minus {
+    font-size: 7.8rem;
+}
+.send-tip-inner-popup {
+    max-width: 842px;
+    padding: 52px 90px;
+}
+.send-tip-inner-popup .send-tip-btn {
+    font-size: 35px;
+    margin-bottom: 130px;
+    width: 100%;
+    padding: 27px 15px;
+    max-width: 274px;
+} 
+.send-tip-popup-block .upload-details {
+    padding: 100px 0 50px;
+}
+.live-user .live-user-pov .live-icon-top figure {
+    width: 150px;
+}
+.live-user-block .live-user-head h2 {
+    font-size: 44px;
+}
+.live-user-block .live-user-head img {
+    width: 40px;
+}
+.live-user-block .live-user-head {
+    padding: 15px 0 74px;
+}
+.live-user-block {
+    padding: 15px 25px;
+}
+.live-chat-user .sub-txt p {
+    font-size: 23px;
+}
+.live-user-block .live-chat-user figure {
+    width: 58px;
+    margin-right: 15px;
+}
+.live-chat-user .sub-txt h4 {
+    font-size: 24px;
+}
+.live-user-block .live-chat-user {
+    padding: 0 0 100px;
+}
+.live-user-comment .live-coins-tip img {
+    width: 50px;
+}
+.live-user-comment .live-coins-tip p {
+    font-size: 22px;
+}
+.live-user-comment .live-user-txt { 
+    height: 120px;
+}
+.live-user-comment .message-send {
+    height: 40px;
+    width: 40px;
+}
+.live-user-comment form {
+    width: calc(100% - 110px);
+}
+
+/*live-user page css ends*/
+
+/*error-popup page css start*/  
+.error-popup-block figure {
+    width: 96px;
+    margin: 87px 0;
+}
+.error-inner-popup {
+    max-width: 484px; 
+}
+.error-popup-block h3 {
+    font-size: 29px; 
+    margin-bottom: 87px;
+}
+/*error-popup page css ends*/
+/*success-popup page css start*/  
+.success-popup-block figure {
+    width: 96px;
+    margin: 87px 0;
+}
+.success-inner-popup {
+    max-width: 484px; 
+}
+.success-popup-block h3 {
+    font-size: 29px; 
+    margin-bottom: 87px;
+}
+/*success-popup page css ends*/
+
+
+
+/*subscribers  page css start*/
+.message-contant .sub-txt {
+    width: calc(100% - 150px);
+}
+.message-block .sub-mr {
+    margin-bottom: 64px;
+}
+.notification-ico .messages-search {
+    width: 40px;
+}
+/*subscribers  page css ends*/
+
+
+/*fee-setup page css start*/
+.fee-setup-block h3 {
+    font-size: 44px;
+}
+.fee-setup-block .setup-sub h4 {
+    font-size: 38px;
+}
+.setup-sub .form-control {
+    display: block;
+    width: 40%;
+    font-size: 28px;
+    padding: 17px;
+}
+.fee-setup-block h3 {
+    font-size: 44px;
+    padding: 0 0 47px;
+    margin: 0;
+}
+.fee-setup-block .save-btn {
+    background: #E464A0;
+    font-size: 24px;
+    margin-top: 25px;
+}
+.setup-sub .free-txt, .setup-sub .paid-txt {
+    font-size: 30px;
+    font-weight: 700;
+}
+.setup-sub .radio-bg {
+    position: relative;
+    background: #fff;
+    height: 36px;
+    width: 137px;
+    border-radius: 18px;
+}
+.setup-sub .radio-bg span { 
+    height: 48px;
+    width: 48px; 
+    top: -5px; 
+}
+.fee-setup-block p {
+    font-size: 24px;
+}
+.fee-setup-block .setup-sub .plus, .fee-setup-block .setup-sub .minus {
+    font-size: 5.8rem;
+}
+.setup-coins .coins-value h2 {
+    font-size: 44px;
+}
+.setup-coins .dollor-value h2 {
+    font-size: 44px;
+}
+
+.setup-coins .coins-value span {
+    width: 32px;
+}
+.setup-coins .dollor-value h2 span {
+    width: 19px;
+}
+.setup-coins .fancoin-earned { 
+    padding: 8px 25px;
+    border-radius: 42px;
+}
+.fee-setup-block .setup-sub {
+    padding: 25px 0 67px;
+}
+/*fee-setup page css ends*/
+/*PAyout page css start*/
+.available-coins .fancoin-earned { 
+    padding: 8px 145px; 
+}
+
+.amt-top {
+    margin: 90px 0 0 0;
+    font-size: 50px;
+}
+
+/*PAyout page css ends*/
+/*languages page css start*/
+.choose-languages {
+    padding: 15px 225px;
+}
+.languages-detail .choose-languages label {
+    font-size: 28px;
+    margin-left: 50px;
+}
+.languages-detail .choose-languages .languages-block {
+    margin: 32px 0; 
+    padding: 25px 31px;  
+    border-radius: 35px;
+}
+.languages-detail .choose-languages label:after {
+    width: 34px;
+    height: 34px;
+    left: 30px;
+}
+/*languages page css ends*/
+
+
+/*blocked-account page css start*/
+
+
+.blocked-account-block h2 { 
+    font-size: 44px;  
+}
+.blocked-account-block .form-control { 
+    font-size: 28px;
+}
+.blocked-account-details .user-icon:after { 
+    height: 24px;
+    width: 24px;
+    left: 18px;
+}
+.blocked-account-details .unblock-user { 
+    font-size: 18px;
+}
+/*blocked-account page css ends*/
+
+
+/*live-video-ended page css start*/
+.live-video-ended  {
+    font-size: 70px; 
+    padding-bottom: 30px
+} 
+.all-coins-ended {
+    font-size: 48px;
+    margin: 0; 
+}
+.available-all-coins .live-dollor-value h2 {
+    font-size: 48px;
+    margin: 0 15px 0 0; 
+}
+.available-all-coins .live-coins-value h2 {
+    font-size: 48px;
+    margin: 0 25px 0 0;
+    padding: 0 25px 0 0;
+    border-right: 3px
+    solid #F633A2;
+    font-weight: 400;
+}
+.available-all-coins {
+    width: 60%;
+}
+.available-all-coins .live-dollor-value span {
+    width: 20px;
+}
+.available-all-coins .live-coins-value span {
+    width: 40px;
+}
+
+/*live-video-ended page css ends*/
+
+
+
+/*dashboard page css start*/
+.t-earning {
+    font-size: 44px; 
+    padding: 0 0 15px 113px;
+}
+.available-coins .view-more-earn a {
+    font-size: 44px; 
+    
+}
+
+/*dashboard page css ends*/
+/*Wallet page css start*/
+.wallet-block {
+    padding: 38px;
+    margin-bottom: 80px;
+}
+.all-coins {
+    font-size: 55px; 
+    padding-bottom: 30px
+}
+.available-coins .coins-value h2 {
+    font-size: 44px; 
+}
+.available-coins .dollor-value h2 {
+    font-size: 44px; 
+}
+.available-coins .coins-value span {
+    width: 35px; 
+}
+.available-coins .dollor-value span {
+    width: 20px;
+}
+.add-coins .add-coins-btn {
+    font-size: 24px;
+    padding: 26px 135px; 
+
+}
+
+.pay-card-block {
+    padding: 80px 128px;
+}
+.pay-card-block h2 {
+    font-size: 50px; 
+}
+.pay-card-pd {
+    padding: 0 86px;
+}
+.pay-card-block .pay-card .form-select {
+    font-size: 28px;
+}
+.pay-card-block .pay-card .form-select {
+    font-size: 28px;
+    margin-bottom: 25px;
+    padding: 28px; 
+}
+.pay-card-block .pay-card .select-box-arrow:after {
+    content: '';
+    height: 53px;
+    width: 50px;
+    right: 25px;
+}
+.add-new-card .add-card-txt a {
+    font-size: 32px;
+}
+.add-new-card .add-card-txt img {
+    width: 41px; 
+}
+.add-new-card .add-card-txt {
+    padding: 98px 0 68px;
+}
+.add-new-card .pay-card-section {
+    padding: 119px 58px;
+    margin-bottom: 70px;
+}
+.pay-card-section .pay-card-number h3 {
+    font-size: 36px;
+    margin: 0;
+}
+.pay-card-section .pay-card-name h3 {
+    font-size: 28px;
+}
+.pay-card-section .pay-card-valid h3 {
+    font-size: 28px;
+}
+.pay-card-section .pay-card-number {
+    padding-bottom: 57px;
+}
+.pay-card-details h5 {
+    font-size: 26px;
+}
+.add-new-card .add-number input {
+    width: 25%;
+    font-size: 33px;
+}
+
+.customer-card .customer-card-name input {
+    font-size: 26px;
+    padding: 33px 20px;
+}
+.customer-card .customer-card-valid input {
+    font-size: 26px;
+    padding: 33px 20px;
+}
+.customer-card .customer-card-valid h5 {
+    font-size: 33px;
+}
+.add-new-card .add-number { 
+    padding: 28px;
+
+}
+.add-new-card .pay-card-details {
+    padding: 0 0 58px;
+}
+.remember-card .remember-card-details label {
+    font-size: 28px;
+    margin-left: 55px;
+}
+.remember-card .remember-card-details label:before, .remember-card .remember-card-details label:after {
+    width: 36px;
+    height: 27px;
+}
+.remember-card .remember-card-details p {
+    font-size: 22px;
+    margin-left: 55px;
+}
+
+.add-new-card .pay-button-block .pay-btn {
+    font-size: 28px;
+    width: 100%;
+    max-width: 264px;
+    padding: 27px 70px;
+}
+.pay-card-block .pay-button-block {
+    margin: 60px 0;
+}
+.pay-card-block .terms-link p {
+    font-size: 24px;
+}
+.pay-card-block .company-link {
+    font-size: 28px;
+}
+.pay-card-block .terms-link {
+    margin: 75px 0;
+}
+
+.customer-card .customer-card-cvv input {
+    font-size: 26px;
+    padding: 33px 20px;
+}
+.pay-card-block .qr-code-details p {
+    font-size: 27px;
+    margin-bottom: 54px;
+}
+.pay-card-block .qr-code-details h3 {
+    font-size: 44px;
+}
+.qr-code-details .qr-code figure {
+    padding: 0;
+    max-width: 371px;
+    margin-bottom: 49px;
+}
+.copy-link-details .copy-link span {
+    font-size: 27px;
+    padding: 29px;
+}
+.qr-code-details .copy-link-details a {
+    width: 63px;
+}
+.copy-link-details {
+    padding: 0 15px;
+}
+.pay-card-block .pay-button-block .pay-btn {
+    font-size: 28px; 
+    font-weight: 700; 
+    padding: 27px 50px;
+    max-width: 264px;
+    width: 100%;
+}
+.qr-code-details .copy-link {
+    width: 85%;
+}
+/*Wallet page css ends*/
+
+
+
+
+.inner-popup h2 { 
+    font-size: 45px; 
+}
+/*creators-wishlist page css start*/ 
+.wishlist-inner-popup h2 {
+    font-size: 38px; 
+}
+
+.wishlist-inner-popup {
+    max-width: 706px;
+    width: 100%;
+    position: relative;
+    background: #fff;
+    border-radius: 30px;
+    padding: 28px;
+}
+.wishlist-popup-block .upload-details label {
+    font-size: 26px;
+    padding: 0 0 20px;
+}
+.cross-btn {
+    width: 45px;
+    position: absolute;
+    top: 28px;
+    right: 18px;
+    cursor: pointer;
+}
+.wishlist-popup-block .upload-details .form-control { 
+    font-size: 24px;
+}
+.wishlist-popup-block .upload-details .form-group {
+    margin-bottom: 35px;
+}
+.wishlist-card {
+    padding: 0 50px 0 70px;
+}
+.wishlist-card .card-block h3 {
+    font-size: 36px;
+    margin: 0 0 10px;
+}
+.wishlist-card .card-block p {
+    font-size: 18px;
+    padding: 0 0 26px;
+}.wishlist-card .card-block h5 {
+    font-size: 28px;
+    margin: 0 0 5px;
+}
+.wishlist-card .card-block {
+    width: 48%;
+    padding: 20px;
+    margin-bottom: 65px;
+}
+.wishlist-add-icon a {
+    width: 97px;
+    position: fixed;
+    top: 70%;
+    right: 20%;
+    z-index: 9;
+}
+/*creators-wishlist page css ends*/
+
+/*manage revenue page css start*/
+.manage-set-list a {
+    font-size: 44px; 
+}
+.manage-revenue .revenue-wrp {
+    padding: 86px 70px;
+}
+.manage-set-list a::after {
+    right: 38px;
+    width: 30px;
+    height: 28px;
+}
+.manage-set-list li {
+    padding: 35px 0;
+}
+/*manage revenue page css ends*/
+
+/*fee page css start*/
+.fee-block .fee-menu li {
+    border-right: 4px solid #fff;  
+    padding-right: 68px;
+    padding-left: 68px;
+}
+.fee-block .fee-menu li:first-child {
+    border-right: 4px solid #fff; 
+    padding-right: 68px;
+}
+.fee-block .fee-menu a {
+    font-size: 44px;
+}
+.fee-block .fee-menu li:last-child { 
+    padding-left: 68px;
+}
+.fee-block {
+    padding: 71px 146px 98px;
+}
+.fee-block .fee-menu {
+    padding: 0 0 99px;
+}
+.fee-block .limit-block label {
+    font-size: 25px;
+    padding: 8px 8px 20px;
+}
+.limit-block .identity-check label:after {
+    width: 34px;
+    height: 34px;
+}
+.fee-block .limit-block .form-select {
+    font-size: 22px;
+    padding: 20px;
+    margin-bottom: 44px;
+}
+.fee-block .limit-block .duration-pd label {
+    padding: 0 0 26px 0;    
+    font-size: 28px;
+}
+.fee-block .limit-block .select-box-arrow:after { 
+    height: 40px;
+}
+
+.limit-block .disc-validation {
+    font-size: 22px;
+    color: #2C2C2C;
+}
+
+
+.pkg-form-inline .form-control { 
+    font-size: 22px;
+}
+.packages-sec .packages-block label {
+    font-size: 28px; 
+}
+.packages-sec .packages-block h2 {
+    font-size: 44px; 
+}
+.packages-block .pkg-radio label:after { 
+    width: 44px;
+    height: 44px;
+}
+.packages-block .set-btn {
+    font-size: 24px;
+    padding: 12px 94px;
+}
+.packages-sec h4 {
+    font-size: 28px;  
+}
+.packages-block { 
+    padding: 27px 55px;
+}
+.packages-block { 
+    margin-bottom: 38px;
+}
+/*fee page css ends*/
+/*reset password page css start*/
+.verify-btn {
+    font-size: 24px;
+    max-width: 356px;
+    border-radius: 40px;
+    margin-bottom: 38px;
+    margin-top: 60px;
+    width: 100%;
+}
+.verify-password-pb .email-chevron h6 {
+    font-size: 32px;
+    padding: 35px 0 0;
+    margin-bottom: 15px;
+}
+.verify-password-pb .verify-code .form-control {
+    font-size: 22px;
+    padding: 15px;
+    height: 78px;
+}
+.verify-password-pb .form-group {
+    width: 24%;
+    margin: 0 35px 0 0;
+}
+.verify-password-pb .verify-code {
+    width: calc(100% + 35px);
+}
+.reset-password-pb .email-chevron:after {
+    height: 24px;
+    left: 23px;
+}
+.p-update-img {
+    width: 223px;
+}
+
+.p-login-btn {
+    font-size: 24px;
+    max-width: 356px;
+    border-radius: 40px;
+    margin-bottom: 60px;
+    width: 100%;
+}
+
+/*reset password page css ends*/
+/*create password page css start*/
+.reset-password-details {
+    padding: 65px 232px 60px;
+}
+.create-password .reset-f-password {
+    padding-left:  185px;
+    padding-right: 185px;
+
+}
+.reset-f-password h2 {
+    color: #2C2C2C;
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.reset-f-password p {
+    font-size: 36px;
+}
+.reset-password-details .form-control { 
+    font-size: 22px;
+    padding: 17px 40px 17px 65px;
+    height: 78px; 
+}
+.reset-password-details .reset-password-pb .lock-chevron:after { 
+    height: 25px;
+    top: 35px;
+    left: 20px;
+}
+.reset-password-details .validation {
+    font-size: 22px;
+}
+.reset-password-pb {
+    padding-bottom: 50px;
+}
+/*create password page css ends*/
+
+/*transactions page css start*/
+ 
+.transactions-block {
+    padding: 80px 54px 30px; 
+    margin-bottom: 60px;
+}
+.transactions-block h3 {
+    font-size: 53px; 
+}
+
+.transactions-block h4 {
+    font-size: 44px; 
+}
+.transactions-block h4 img {
+    width: 36px;
+    right: 110px;
+    top: -5px;
+}
+.transactions-block .time-zone p {
+    font-size: 22px;
+    padding: 102px 0 0 0; 
+}
+
+.transaction-history h3 {
+    font-size: 53px; 
+}
+ 
+.transaction-table td, .transaction-table th {
+    padding: 13px 85px;
+}
+.transaction-table table, .transaction-table td, .transaction-table th, .transaction-table tr { 
+  font-size: 20px; 
+}
+/*transactions page css ends*/
+
+
+.payout-verification .form-County-select {
+    font-size: 27px;
+    height: 100px; 
+}
+
+.payout-verification .personal-details span {
+    font-size: 25px; 
+}
+    
+.commission-earned h5 {
+    font-size: 44px;
+    color: #F633A2;
+}
+.commission-earned  .responsive-iframe {
+    width: 70%;
+    height: 370px;
+}
+/*chat page css start */
+
+.chat-view-inner-popup {
+    max-width: 809px;
+}
+.chat-messages .messages-right span {
+    font-size: 18px;
+    padding: 4px 0;
+}
+.video-call-request-block { 
+    width: 100%;
+    max-width: 544px; 
+    padding: 0 30px;
+}
+.video-call-request-block .coins-value h2 {
+    font-size: 44px;
+}
+.messages-right {
+    padding: 25px 60px; 
+}
+.user-video-call-request {
+    font-size: 22px;
+}
+.video-call-request-block .dollor-value h2 {
+    font-size: 44px;
+}
+.video-call-request-block .dollor-value span {
+    width: 20px;
+}
+.video-call-request-block .coins-value span {
+    width: 34px;
+}
+.video-call-request-block p { 
+    font-size: 35px;
+    width: 49%;
+}
+
+.chat-m-profile img {
+    width: 102px;
+}
+.chat-m-heading h4 {
+    font-size: 44px;
+    margin: 0 0 0 30px;
+}
+.voice-call {
+    width: 36px;
+}
+.video-call {
+    width: 45px;
+    margin-left: 37px;
+}
+
+.chat-messages .video-call-view-btn .request-view-btn {
+    font-size: 22px; 
+    padding: 6px 43px; 
+}
+
+
+.chat-messages .type-img-right figure {
+    width: 42px;
+    height: 42px;
+}
+.chat-details .form-control {
+    display: block;
+    width: 100%;
+    padding: 17px 95px 17px 200px;
+    font-size: 40px;
+    border-radius: 56px;
+    height: 161px;
+}
+.chat-details .chating-icon .attech { 
+    width: 42px;
+}
+.chat-details .chating-icon span { 
+    width: 52px; 
+    left: 25px;
+}
+.chat-details .chating-icon .attech {
+    left: 125px;
+}
+
+.chat-details .chating-icon .go {
+    content: '';
+    top: 24%;
+    width: 60px;
+    right: 72px;
+}
+
+.chat-details .chating-icon .dollar-icon {
+    width: 30px;
+    left: 55px;
+}
+ 
+
+
+ .set-pr p {
+    padding: 0 30px 0 0;
+    font-size: 28px;
+}
+.send-block .coins-value h2{
+    font-size: 33px; 
+
+}
+.send-block .dollor-value h2{
+    font-size: 33px; 
+}
+.send-tip-btn {
+    background: #E464A0;
+    font-size: 35px;
+}
+.send-block .dollor-value span{
+    width: 16px;
+}
+.send-block .coins-value span{
+    width: 28px;
+}
+.send-tip-block {
+    padding: 115px 0 117px;
+}
+/*chat page css ends */
+
+/*home page css start */
+
+.home-contant .trade-txt h4 {
+    font-size: 22px; 
+}
+.home-contant .trade-txt img {
+    width: 20px;
+}
+.profile-view-block .profile-view img {
+    width: 100px;
+    height: 100px; 
+}
+
+.disc-img figure {
+    width: 85px;
+    height: 85px;
+}
+.disc-img h4 {
+    font-size: 36px;
+}
+.disc-img a img {
+    width: 36px;
+    height: 36px;
+}
+.disc-time h4 {
+    font-size: 28px; 
+}
+.home-block-s .fn-disc {
+    font-size: 29px; 
+}
+.comment-section .user-comment-h img {
+    width: 43px;
+}   
+.comment-section .user-comment-h a {
+    font-size: 32px; 
+    padding-left: 70px;
+    margin-right: 86px;
+}
+.comment-section .user-coins img {
+    width: 72px; 
+}
+.add-comment-section .add-comment-h .add-p-img {
+    width: 66px; 
+    margin-right: 27px;
+}
+.add-comment-section .add-comment-h a {
+    font-size: 28px;
+} 
+.comment-section {
+    margin-bottom: 50px;
+}
+.user-send img {
+    width: 35px;
+    position: relative;
+    right: 14px;
+}
+
+.half-circle-home:after {
+    height: 150px;
+    width: 150px;
+}
+.half-circle-home {
+    top: 0px;
+    width: 150px;
+    height: 75px;
+}
+.home-white-icon .white-material { 
+    position: relative;
+    top: 10px;
+    height: auto;
+}
+.footer .left-icon img, .right-icon img {
+    width: 59px;
+    height: auto;
+}
+ 
+.footer .home-white-icon {
+    top: -65px;
+    padding: 20px;
+    height: 118px;
+    width: 118px;
+}
+
+/*home page css ends */
+
+.notification-ico .dropdown-menu { 
+    top: 85px !important; 
+}
+.notification-ico .dropdown-menu .notif-cate { 
+    font-size: 55px; 
+}
+.notification-ico .dropdown-menu .notif-cate img { 
+    width: 42px;
+}
+
+.half-circle-bell:after {
+    width: 150px;
+    height: 150px;
+}
+.half-circle-bell {
+    width: 150px;
+    height: 72px;
+    right: 15%;
+}
+.footer .awesome-bell-icon {
+    right: 18%;
+    padding: 20px; 
+    height: 118px;
+    width: 118px;
+    background: #E464A0; 
+    position: absolute;
+    border-radius: 50%;
+    top: -60px;
+    z-index: 2;  
+}
+/*trending page css start*/
+.trending-txt {
+    font-size: 48px;
+    margin: 0;
+    padding: 0 20px 40px;
+}
+.trending-block {
+    padding: 22px;
+    margin-bottom: 47px;
+}
+.trending-contant figure img { 
+    padding-bottom: 10px;
+}
+.trending-contant .trade-txt h4 {
+    font-size: 22px; 
+}
+.trending-contant .trade-txt img {
+    width: 19px;
+}
+
+.see-more-link {
+    font-size: 32px;
+    padding: 10px 0;
+}
+/*trending page css ends*/
+
+
+/*messages page css start*/
+.messages-back {
+    font-size: 70px;
+    margin: 0;
+    padding: 26px 0 40px;
+}
+.new-message {
+    font-size: 44px;
+    margin: 0;
+    padding-bottom: 30px;
+}
+.message-contant figure {
+    width: 106px;
+}
+.message-contant .mes-txt {
+    width: calc(100% - 238px);
+}
+.message-block {
+    padding: 22px 34px 22px 35px;
+    margin-bottom: 21px;
+    border-radius: 56px;
+}
+.oth-message figure {
+    width: 106px;
+}
+.oth-message .mes-txt {
+    width: calc(100% - 152px);
+}
+.other-message {
+    font-size: 44px;
+    padding: 44px 1px 16px 10px;
+}
+.message-block .message-contant h4 {
+    font-size: 36px;
+}
+.message-block .messages-count span {
+    font-size: 26px;
+    padding: 5px 12px;
+}
+.message-block .message-contant p {
+    font-size: 29px;
+}
+
+.messages-sec .back-arrow img {
+    width: 60px;
+    top: 7px;
+    margin: 0 30px 0px 7px;
+}
+.messages-sec .messages-search {
+    width: 56px;
+    margin-right: 28px;
+    margin-top: 58px;
+}
+.message-block .oth-message h4 {
+    font-size: 36px;
+}
+.message-block .oth-message p {
+    font-size: 29px;
+}
+
+
+.footer .material-white-icon {
+    top: -65px;
+    padding: 20px;
+    height: 118px;
+    width: 118px;
+}
+
+.footer .material-white-icon {
+    top: -65px; 
+    padding: 20px;
+    display: flex;
+    height: 118px;
+    width: 118px;
+    align-items: center;
+}
+.white-material {
+    width: 65px;
+    margin-left: 10px;
+}
+.half-circle-chat {
+    width: 150px;
+    height: 75px;
+}
+.half-circle-chat:after {
+    content: '';
+    width: 150px;
+    height: 150px;
+}
+
+
+/*messages page css ends*/
+
+
+
+/* add-post page start */
+.add-post-story {
+    margin: 72px 0;
+}
+.post-back-arrow img {
+    width: 65px;
+    top: -35px;
+}
+.add-story {
+    font-size: 32px;
+    padding-right: 10px;
+}
+.add-post {
+    border-radius: 56px;
+    margin: -8px 0;
+    padding: 48px 45px 35px;
+}
+.add-post .add-title h3 {
+    font-size: 48px;
+    padding: 0 23px;
+}
+.add-post .add-title p {
+    padding: 0px 12px;
+    font-size: 28px;
+    margin-bottom: 14px;
+}
+.compose-new {
+    font-size: 1.94rem;
+    height: 306px;
+    margin-bottom: 37px;
+}
+.add-post .add-photos {
+    margin-bottom: 23px;
+    font-size: 36px;
+    padding: 0 12px;
+    font-weight: 700;
+}
+.schedule-post {
+    font-size: 35px;
+}
+.schedule-pd {
+    padding-right: 55px;
+}
+.live-post {
+    font-size: 35px;
+    padding: 15px 38px 0 0;
+}
+.live-post img {
+    width: 165px; 
+    margin-left: 12px;
+}
+.schedule .schedule-post img {
+    width: 85px;
+    margin: 0 35px 0 30px;
+}
+.post-btn {
+    font-size: 24px;
+    min-width: 356px;
+    width: 100%;
+}
+.add-document {
+    padding: 15px 0 54px;
+}
+.post-btn {
+    font-size: 24px;
+    min-width: 356px;
+    width: 100%;
+    margin: 16px 0 5px;
+}
+
+/*popup*/
+.add-post-inner-popup {
+    max-width: 592px; 
+}
+.add-post-inner-popup h2 {
+    font-size: 38px;
+}
+.add-post-popup-block .upload-details .validations {
+    font-size: 18px;
+} 
+.add-post-popup-block .upload-details .form-group {
+    margin-bottom: 25px;
+}
+.add-post-popup-block .upload-details label {
+    font-size: 26px;
+    padding: 0 0 20px;
+}
+.add-post-popup-block .upload-details .form-control {
+    font-size: 24px;
+}
+.golive-btn {
+    font-size: 24px;
+    max-width: 356px;
+    border-radius: 40px;
+    margin-bottom: 38px;
+    width: 100%;
+}
+
+.follower-details label { 
+    font-size: 28px;
+}
+/* add-post page ends */
+
+/* sign-up page css start*/
+
+.sign-up {
+    padding: 56px 228px 8px;
+    margin: 135px 0;
+}
+.add-avatar {
+    margin-right: -155px; 
+}
+.add-avatar img {
+    width: 106px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.sign-up h2 {
+    font-size: 70px;
+    margin-top: -140px;
+    margin-bottom: 12px;
+}
+.sign-up p {
+    font-size: 36px;
+    margin-bottom: 28px;
+}
+.avatar-right span {
+    font-size: 20px;
+}
+.sign-up-details .form-control {
+    font-size: 22px;
+    height: 73px;
+    padding: 17px 52px 17px 56px;
+    border-radius: 28px;
+    margin-bottom: 42px;
+}
+.sign-up-btn {
+    font-size: 24px;
+    max-width: 356px;
+    width: 100%;
+    margin: 12px 0 18px;
+}
+.sign-up .eye-show { 
+    right: 22px; 
+}
+.terms-link a {
+    font-size: 24px;
+}
+.terms-link p {
+    font-size: 24px;
+}
+/* sign-up page css ends*/
+
+
+
+
+/* login page css start*/
+.login {
+    padding: 65px 232px 8px;
+    margin: 135px 0;
+}
+.login h2 {
+    font-size: 70px;
+}
+.login p {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.login-details .form-control {
+    font-size: 22px;
+    padding: 17px 40px 17px 65px;
+    height: 78px;
+    margin-bottom: 32px;
+}
+
+.login .email-chevron:after { 
+    left: 23px; 
+}
+.login .lock-chevron:after { 
+    left: 23px; 
+}
+.login .lock-chevron:after {
+    height: 30px;
+}
+.login .email-chevron:after {
+    height: 24px;
+}
+.login .lock-chevron:after {
+    height: 24px;
+}
+
+.login .eye-show {
+    right: 25px;
+    height: 30px;
+} 
+.forgot-password {
+    font-size: 24px;
+    padding-bottom: 27px;
+}
+
+.login-btn {
+    font-size: 24px;
+    max-width: 356px;
+    border-radius: 40px;
+    margin-bottom: 38px;
+    width: 100%;
+}
+.login-details {
+    padding: 0 0px 60px;
+}
+.signup-link p {
+    font-size: 28px;
+}
+.signup-link a {
+    font-size: 28px;
+}
+/* login page css ends*/
+
+/* payout verification page css start*/
+.payout-verification { 
+    border-radius: 56px;
+    padding: 80px 113px 8px;
+}
+
+.payout-verification .form-select {
+    font-size: 28px;
+    height: 100px;
+}
+.payout-verification .personal-details label {
+    font-size: 38px;
+}
+.payout-verification .personal-details .currency-fn {
+    font-size: 38px;
+}
+.and-or {
+    font-size: 60px;
+        margin: 80px 0 80px;
+}
+ 
+/* payout verification page css ends*/
+
+/*verification-identity page css start*/
+    .proof-identity {
+        border-radius: 56px;
+        padding: 72px 124px 72px;
+    }
+    .proof-identity h4 {
+        font-size: 44px;
+    }
+    .proof-identity p {
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .choose-identity h6 {
+        font-size: 38px;
+    }
+    .choose-identity .identity-check label:after {
+        width: 25px;
+        height: 25px;
+    }
+    .choose-identity .identity-check label {
+        font-size: 32px;
+        padding-left: 15px;
+    }
+    .upload-proof .document-identity h3 {
+        font-size: 38px;
+    }
+    .upload-proof .document-identity p {
+        font-size: 27px;
+    }
+    .upload-proof .document-identity p span {
+        font-size: 27px;
+    }
+    .selfie-identity h6 {
+        font-size: 36px;
+    }
+
+    .selfie-identity .massage-line {
+        font-size: 27px;
+    }
+    .help-info img {
+        width: 45px;
+        margin-bottom: 40px;
+    }
+    .verification-terms li {
+        font-size: 27px;
+    }
+/*verification-identity page css ends*/
+
+
+/*request verification page css start */
+.next-btn {
+    font-size: 24px;
+    min-width: 356px;
+    width: 100%;
+    margin: 16px 0 5px;
+}
+.user-verification .back-arrow img {
+    width: 60px;
+    top: 14px;
+    margin: 0 30px 0px 7px;
+}
+.user-verification {
+    font-size: 70px;
+    padding: 25px 0 20px;
+}
+.step-by li {
+    font-size: 34px;
+}
+.step-progress {
+    height: 51px;
+    padding: 0 18px;
+}
+.step-progress-bg { 
+    width: 27%;
+    height: 25px; 
+}
+.personal-info { 
+    border-radius: 56px;
+    padding: 110px 146px 8px;
+}
+.personal-info h4 {
+    font-size: 34px;
+    padding-bottom: 66px;
+}
+.personal-details label {
+    font-size: 27px;
+    color: #E464A0;
+    padding-left: 15px;
+    margin-bottom: 17px
+}
+.personal-details {
+    padding: 0 0px 60px;
+}
+.personal-details .form-control {
+    font-size: 27px;
+    height: 100px; 
+}
+.personal-details .form-group { 
+    margin-bottom: 51px;
+}
+.personal-details .dob {
+    font-size: 27px;
+    height: 100px;
+    padding: 17px 32px;
+    width: 34%;
+}
+
+.social-media-info h4 {
+    font-size: 34px;
+    padding-bottom: 66px;
+}
+
+.social-media-info h5 {
+    font-size: 28px;
+}
+
+.social-media-info label {
+    font-size: 27px;
+    padding-left: 15px;
+    margin-bottom: 17px;
+}
+.social-media-info .form-control {
+    font-size: 27px;
+    height: 100px;
+    margin-bottom: 40px;
+}
+    
+
+/*request verification page css ends */
+/*Referral page css start*/
+.uesr-referral {
+    padding: 0 0 90px;
+}
+.referral-back {
+    font-size: 70px;
+    padding-top: 26px;
+}
+.back-arrow img {
+    width: 60px;
+    top: 8px;
+    margin: 0 30px 0px 7px;
+}
+.refer h4 {
+    font-size: 41px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    line-height: 1.3;
+}
+
+.refer {
+    padding: 63px 22px 73px;    
+    border-radius: 56px;
+    margin-bottom: 140px;
+}
+
+.refer-link { 
+    border-radius: 56px;
+    margin-bottom: 132px;
+}
+.refer-link h4 {
+    font-size: 44px;
+    padding: 52px 61px 43px;
+}
+.refer-link img {
+    width: 50px;
+}
+.refer-link a {
+    border-left: 1px solid #6C6C6C;
+    padding: 33px 43px;
+}
+.level-p {
+    padding: 0 10px;
+}
+
+.level-referrals {
+    padding: 85px 274px 85px 128px;
+    border-radius: 56px;
+    margin-bottom: 132px;
+}
+
+.level-referrals .rf-pb h4 {
+    padding-bottom: 95px;
+}
+.level-referrals h4 {
+    font-size: 44px;
+}
+
+.commission-earned h4 {
+    font-size: 44px;
+}
+
+.commission-earned {
+    padding: 60px 0;
+    border-radius: 56px;
+    margin-bottom: 132px;
+}
+
+.commission-earned .rf-pb h4 {
+    padding-bottom: 55px;
+}
+.responsive-iframe {
+    width: 70%;
+}
+.referral-search {
+    width: 56px;
+    margin-right: 28px;
+    margin-top: 58px;
+}
+
+/*Referral page css ends*/
+
+/*17/10/2021*/
+.img-card {
+    margin: 0px 0px;
+    width: calc(100% + 8px);
+}
+.profile-details .profile-padd {
+    padding: 50px 50px 0 80px;
+}
+.followcount .user-count {
+    padding: 0 36px 0;
+    margin: 0 0 0 0;
+    display: inline-block;
+}
+.followcount .wishlist-count {
+    margin: 0 0 0 0;
+    display: inline-block;
+}
+
+.profile-details .pr-space {
+    padding: 0 0 31px;
+}
+
+.profile-name {
+        font-size: 4.4rem;}
+    .profile-name img {
+        width: 40px; 
+    }
+    .followcount {
+        font-size: 3.9rem; 
+    }
+    .followcount .user-count span {
+    vertical-align: top;
+    font-size: 38px;
+}
+    .followcount .wishlist-count span {
+    vertical-align: top;
+    font-size: 38px;
+}
+    .followcount img {
+        width: 35px;
+        vertical-align: top;
+    }
+    .profile-name img { 
+        margin-left: 20px; 
+    }
+    .star-ratting img {
+        width: 45px;
+        margin-right: 10px;
+    }
+    .share-icon img {
+        width: 45px;
+        margin-left: 37px;
+    }
+    .online-status { 
+        font-size: 2.8rem;
+    }
+    .user-status {
+        margin: 0;
+    }
+    .online-status {
+        padding: 2px 38px 8px;
+    }
+    .online-status span {
+        height: 18px;
+        width: 18px;
+        left: 7px;
+        top: 8px;
+    }
+    .user-disc p {
+        font-size: 3.0rem;
+    }
+    .share-icon {
+        padding-top: 10px;
+    }
+    .dot span {
+        margin-left: 8px;  
+        height: 18px;
+        width: 18px;
+    }
+    .user-disc a {
+        font-size: 2.8rem;
+        margin-top: 8px;
+    }
+    .user-disc p {
+        padding: 0;
+    }
+    .follow-btn .followers-btn {
+        font-size: 3.0rem;
+        padding: 25px 177px;
+    }
+    .more-icon img {
+        height: 95px;
+        margin: 0 35px;
+    }
+    .more-icon {
+        padding: 32px 0 88px;
+    }
+    .follow-btn {
+        padding: 145px 0px 107px;
+        margin: 0;
+    }
+    .footer .left-icon {
+        width: 320px;
+    }
+    .footer .right-icon {
+        width: 320px;
+    }
+    .footer .left-icon img, .right-icon img {
+        width: 59px;
+    }
+    .awesome-search img {
+            width: 59px;
+        }
+    .footer .search-icon { 
+        top: -65px;
+        padding: 20px;
+        height: 118px;
+        width: 118px; 
+    }
+    .footer .search-icon img {
+        width: 68px;
+    }
+    .half-circle { 
+        width: 150px;
+        height: 75px; 
+    }
+    .half-circle:after {
+        content: ''; 
+        width: 150px;
+        height: 150px; 
+    }
+
+
+
+
+.profile-details {
+    border-radius: 56px 56px 0 0;
+}
+/*17/10/2021*/
+
+
+
+
+    .banner-section .banner-img .b-img {
+        max-height: 438px;
+    }
+    .account-settings .acc-title {
+        font-size: 60px;
+        margin-bottom: 27px;
+    }
+    .acc-set-list a {
+        font-size: 5rem;
+    }
+    .acc-set-list a {
+        padding-left: 92px;
+    }
+    .acc-set-list .list-icn {
+        left: 15px;
+        top: 3px;
+        width: 50px;
+    }
+    .acc-set-list li {
+        padding: 27px 0;
+    }
+    .acc-set-list .list-icn.lock {
+        width: 48px;
+    }
+    .acc-set-list .list-icn.dollor {
+        width: 21px;
+        top: 11px;
+    }
+    .acc-set-list .list-icn.subs {
+        width: 49px;
+    }
+    .acc-set-list .list-icn.bell-icn {
+        top: 9px;
+        width: 40px;
+    }
+    .acc-set-list.pb-3 {
+        padding-bottom: 40px !important;
+    }
+    .acc-set-list .list-icn.lang {
+        width: 48px;
+        top: 19px;
+    }
+    .acc-set-list .list-icn.block-i {
+        width: 41px;
+        top: 18px;
+    }
+    .acc-set-list a::after {
+        right: 38px;
+        width: 15px;
+        height: 32px;
+    }
+    .switcher label {
+        width: 84px;
+        height: 40px;
+    }
+    .switcher label::after {
+        width: 30px;
+        height: 28px;
+        left: 9px;
+    }
+    .switcher input:checked + label::after {
+        left: 44px;
+    }
+    .acc-set-list .list-icn.users {
+        width: 45px;
+        top: 13px;
+    }
+}
+@media only screen and (max-width: 399px) {
+ 
+   
+    /* sign-up page start */
+
+    .add-avatar img {
+        width: 35px; 
+    }
+    .avatar-right span {
+        font-size: 1.5rem; 
+        padding-top: 10px;
+    }
+    .sign-up h2 { 
+        font-size: 3.2rem; 
+        margin-top: -15px;
+    }
+    .sign-up p { 
+        font-size: 1.4rem; 
+    }
+    .sign-up-details .form-control {
+        font-size: 1.34rem;
+        padding: 10px 40px 10px 45px;
+    }
+    .sign-up .user-icon:after { 
+        height: 15px;
+    }
+    .sign-up .email-chevron:after { 
+        height: 15px;
+    }
+    .sign-up .lock-chevron:after { 
+        height: 15px; 
+    }
+    .sign-up .eye-show { 
+        height: 15px;
+    }
+    .sign-up-btn { 
+        padding: 10px; 
+    }
+    /* sign-up page ends */
+
+    /* login page start */
+    .login h2 { 
+        font-size: 3.2rem; 
+    }
+    .login p { 
+        font-size: 1.4rem; 
+    }
+    .login .email-chevron:after { 
+        height: 15px;
+    }
+    .login .lock-chevron:after { 
+        height: 15px;
+    }
+    .login .eye-show { 
+        height: 15px;
+    }
+    .login-details .form-control { 
+        padding: 10px 40px 10px 56px;
+    }
+
+    .login-btn { 
+        padding: 10px;
+    }
+    .login { 
+        padding: 65px 18px 8px;
+    }
+    .login-details {
+        padding: 0 0px 50px;
+    }
+    /* login page ends */
+
+
+    /* add-post page start */
+    .schedule-post { 
+        font-size: 1.3rem; 
+    }
+    .add-post .add-photos {
+        font-size: 1.3rem; 
+    }
+    .schedule .schedule-post img {
+        width: 35px; 
+    }
+    .live-post img {
+        width: 60px;
+        margin-left: 12px;
+    }
+    .add-post .add-title h3 { 
+        font-size: 1.8rem; 
+    }
+    .post-btn { 
+        padding: 10px; 
+    }
+        .add-story { 
+        font-size: 1.8rem; 
+    }
+
+    /* add-post page start */
+
+    /*verification-identity start*/
+    .user-verification {
+        font-size: 2.2rem; 
+    }
+    .step-by li {
+        font-size: 1.4rem; 
+    }
+    .proof-identity h4 { 
+        font-size: 2rem; 
+    }
+    .choose-identity h6 { 
+        font-size: 1.5rem;
+    }
+    .choose-identity .identity-check label {
+        font-size: 1rem; 
+    }
+    .choose-identity .identity-check .lib-cate { 
+        padding: 10px 2px;
+    }
+    .upload-proof img {
+        width: 60px;
+        height: 60px;
+    }
+    .upload-proof .document-identity h3 { 
+        font-size: 1.3rem; 
+        margin-bottom: 10px;
+    }
+    .upload-proof .document-identity p { 
+        font-size: 1.1rem; 
+    }
+    .upload-proof .document-identity p span { 
+        font-size: 1.1rem;     
+    }
+    .proof-identity p {
+        padding-bottom: 0px;
+    }
+    .upload-proof { 
+        margin-bottom: 40px;
+    }
+    /*verification-identity ends*/
+
+    .dot {
+        top: 40%; 
+    }
+    .follow-btn .followers-btn { 
+        font-size: 1.4rem; 
+    }
+    .footer .left-icon {
+        width: 95px;
+    }
+    .footer .right-icon {
+        width: 95px;
+    }
+    .trending-contant .trade-txt h4 {
+        font-size: 1.2rem;
+    }   
+     /*messages page css start*/
+
+
+     /*messages page css ends*/
+
+
+
+}
